@@ -56,7 +56,7 @@ c.	**Компоненты системы**:<br>
   &nbsp; iii.	Queue Manager: Обработка retry-политик. <br>
 
 ## 4. Модель данных
-&nbsp; i.	*Схема 4. Связи между таблицами БД.* <br>
+&nbsp; i.	*[Схема 4. Связи между таблицами БД.](https://github.com/kovalev-pd/Integration_gateway/blob/main/diagrams/%D0%A1%D1%85%D0%B5%D0%BC%D0%B0_4.md)* <br>
 
 &nbsp; ii.	*Таблица 2. Описание полей таблицы `registry_rules`.* <br>
 | **KEYS** | **FIELDS** | **Data Type**                                          | **Is unique** | **Nullable** | **Description**                                           |
