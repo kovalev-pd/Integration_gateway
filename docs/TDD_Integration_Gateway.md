@@ -33,7 +33,7 @@
 ## 3.	Архитектура
 a.	**Схемы взаимодействия**: <br>
  &nbsp; i.	*[Схема 1.  Первичная трансформация XML to JSON. Создание записи с правилами.](https://github.com/kovalev-pd/Integration_gateway/blob/main/diagrams/%D0%A1%D1%85%D0%B5%D0%BC%D0%B0_1.md)* <br>
-  &nbsp; ii.	*Схема 2.  Работа системы в автоматическом режиме. Преобразование из XML в JSON и наоборот.* <br>
+  &nbsp; ii.	*[Схема 2.  Работа системы в автоматическом режиме. Преобразование из XML в JSON и наоборот.](https://github.com/kovalev-pd/Integration_gateway/blob/main/diagrams/%D0%A1%D1%85%D0%B5%D0%BC%D0%B0_2.md)* <br>
   
   b.	**Логика состояний и матрица переходов**: <br>
  &nbsp; i.	*Схема 3. Статусы и переходы между ними.* <br>
