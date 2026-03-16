@@ -1,0 +1,24 @@
+```mermaid
+sequenceDiagram
+    participant S1 as Система 1 (XML)
+    participant GW as Gateway
+    participant DB as registry_rules  (mapp_id)
+    participant ADM as Admin
+    participant S2 as Система 2 (JSON)
+
+    S1->>GW: Отправка XML (новый XSD)
+    GW->>DB: Проверка наличия mapp_id для XSD
+    DB-->>GW: mapp_id не найден
+    GW->>DB: Создание записи, статус CREATED
+    DB->>ADM: Запрос на верификацию правил
+    ADM->>DB: Установка статуса ENABLED
+    DB-->>GW: Готово
+    rect rgb(240, 248, 255)
+        Note over GW: Transformation Pipeline
+        GW->>GW: Применение стандартных правил (Common)
+        GW->>GW: Применение специальных правил (registry_rules)
+    end
+    GW->>S2: Конвертация и передача JSON (mapp_id вставлен)
+    S2 ->> GW: 200 OK
+    GW ->> S1: 200 OK
+```
