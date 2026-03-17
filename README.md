@@ -15,3 +15,7 @@
 Подробные спецификации доступны в разделе /docs: <br>
 Полное техническое задание — включает подробные сценарии использования (Use Cases), матрицу прав, описание API и моделей данных.<br>
 [TDD_Integration_Gateway.md](https://github.com/kovalev-pd/Integration_gateway/blob/main/docs/TDD_Integration_Gateway.md)
+
+По вопросам сотрудничества и техническим деталям проекта:
+* **Telegram:** @kovalev_pavel_d
+* **Email:** kovalev-pd@mail.ru
